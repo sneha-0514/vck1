@@ -1,0 +1,29 @@
+.program-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.program-table th,
+.program-table td {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.program-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.program-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.blue{
+    color: rgb(0, 102, 255);
+    text-align: center;
+    font-size: 2.5em;
+}
